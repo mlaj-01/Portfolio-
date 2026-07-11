@@ -175,8 +175,6 @@ header{
     color: var(--primary);
 }
 
-/* Mobile Navigation */
-
 @media(max-width:768px){
 
     .menu-btn{
@@ -301,8 +299,10 @@ footer hr{
     margin:25px 0;
     display:flex;
     justify-content:center;
-    gap:18px;
-    flex-wrap:wrap;
+    gap:15px;
+flex-wrap:nowrap;
+overflow-x:auto;
+padding-bottom:10px;
 }
 
 .hero-social a{
