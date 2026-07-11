@@ -1,13 +1,5 @@
-/* ==========================================
-   MUKHTAR PORTFOLIO V2
-   Author: Mukhtar
-   Course: IFT203 - Introduction to Web Technologies
-========================================== */
-
-/* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/* CSS Variables */
 :root{
     --primary:#1E40AF;
     --secondary:#3B82F6;
@@ -19,21 +11,16 @@
     --radius:12px;
 }
 
-/* Reset */
-
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
-/* Smooth Scrolling */
-
 html{
     scroll-behavior:smooth;
 }
 
-/* Body */
 
 body{
     font-family:'Poppins',sans-serif;
@@ -42,27 +29,25 @@ body{
     line-height:1.7;
 }
 
-/* Images */
 
 img{
     max-width:100%;
     display:block;
 }
 
-/* Links */
+
 
 a{
     text-decoration:none;
     color:inherit;
 }
 
-/* Lists */
+
 
 ul{
     list-style:none;
 }
 
-/* Container */
 
 .container{
     width:90%;
@@ -70,13 +55,10 @@ ul{
     margin:auto;
 }
 
-/* Sections */
-
 section{
     padding:70px 0;
 }
 
-/* Titles */
 
 .section-title{
     text-align:center;
@@ -91,13 +73,9 @@ section{
     margin-bottom:40px;
 }
 
-/* Paragraph */
-
 p{
     margin-bottom:15px;
 }
-
-/* Buttons */
 
 .btn{
     display:inline-block;
@@ -126,9 +104,6 @@ p{
     background:var(--primary);
     color:var(--white);
 }
-/* ==========================================
-   HEADER & NAVIGATION
-========================================== */
 
 header{
     background: var(--white);
@@ -224,9 +199,6 @@ header{
         display:flex;
     }
 }
-/* ===============================
-   SKILLS CARDS
-================================ */
 
 .cards{
     display:grid;
@@ -257,9 +229,7 @@ header{
 .card h3{
     margin-bottom:15px;
 }
-/* ===============================
-   FOOTER
-================================ */
+
 
 footer{
     background: var(--dark);
@@ -325,4 +295,33 @@ footer hr{
     display:block;
     margin:30px auto;
     box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.hero-social{
+    margin:25px 0;
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+.hero-social a{
+    width:45px;
+    height:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    background:#ffffff;
+    color:#1E293B;
+    text-decoration:none;
+    font-size:22px;
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.hero-social a:hover{
+    background:#0EA5E9;
+    color:white;
+    transform:translateY(-5px);
 }
